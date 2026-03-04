@@ -1,11 +1,11 @@
 # Insurance-Cost-Prediction
 Machine Learning project to predict insurance charges using regression models
-📌 Insurance Cost Prediction
-🎯 Project Objective
+#  Insurance Cost Prediction
+#  Project Objective
 
 Build a machine learning model to predict medical insurance charges based on customer attributes such as age, BMI, smoking status, number of children, and region.
 
-📊 Dataset Information
+# Dataset Information
 
 Total Records: 1338
 
@@ -15,7 +15,7 @@ Categorical Features: sex, smoker, region
 
 Target Variable: charges
 
-🛠 Technologies Used
+# Technologies Used
 
 Python
 
@@ -29,7 +29,7 @@ Seaborn
 
 Scikit-Learn
 
-🔍 Machine Learning Models Used
+# Machine Learning Models Used
 
 Linear Regression
 
@@ -37,7 +37,7 @@ Decision Tree Regressor
 
 Random Forest Regressor (Final Model)
 
-📈 Model Performance
+# Model Performance
 Model	R² Score	RMSE
 Linear Regression	0.78	5799
 Decision Tree	0.69	6881
@@ -45,7 +45,7 @@ Random Forest	0.865	4571
 
 Average Cross-Validation R² Score: 0.836
 
-🏆 Final Model Selection
+# Final Model Selection
 
 Random Forest was selected because:
 
@@ -57,7 +57,7 @@ Stable cross-validation performance
 
 Handles non-linear relationships effectively
 
-💼 Business Impact
+# Business Impact
 
 This model helps insurance companies:
 
@@ -69,7 +69,7 @@ Identify high-risk customers (e.g., smokers)
 
 Improve pricing strategy and profitability
 
-📌 Key Learnings
+# Key Learnings
 
 Data preprocessing & feature encoding
 
@@ -81,7 +81,7 @@ Overfitting detection
 
 Business interpretation of ML results
 
-👩‍💻 Author
+# Author
 
 Vivekanandhan P
 Aspiring Data Scientist
