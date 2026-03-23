@@ -1,85 +1,70 @@
-# Insurance-Cost-Prediction
-Machine Learning project to predict insurance charges using regression models
-#  Insurance Cost Prediction
-#  Project Objective
+# Insurance Cost Prediction using Machine Learning
 
-Build a machine learning model to predict medical insurance charges based on customer attributes such as age, BMI, smoking status, number of children, and region.
+## 📌 Problem Statement
+The objective of this project is to predict medical insurance costs based on features such as age, BMI, smoking habits, and region.
 
-# Dataset Information
+---
 
-Total Records: 1338
+## 📊 Dataset
+- Source: Datamites / Provided dataset
+- Features:
+  - Age
+  - Sex
+  - BMI
+  - Children
+  - Smoker
+  - Region
+- Target:
+  - Charges (Insurance cost)
 
-Numerical Features: age, bmi, children
+---
 
-Categorical Features: sex, smoker, region
+## ⚙️ Approach
+- Data Cleaning and preprocessing
+- Log transformation of target variable
+- Feature engineering (BMI category, age group, interaction features)
+- Model building using multiple algorithms
 
-Target Variable: charges
+---
 
-# Technologies Used
+## 🤖 Models Used
+- Linear Regression
+- Decision Tree
+- Random Forest
 
-Python
+---
 
-Pandas
+## 📈 Evaluation Metrics
+- R² Score
+- RMSE
+- MAE
+- Cross Validation
 
-NumPy
+---
 
-Matplotlib
+## 📊 Results
+- Random Forest performed best
+- Achieved high R² score with low RMSE
+- Model generalized well across folds
 
-Seaborn
+---
 
-Scikit-Learn
+## 💼 Business Insights
+- Smoking significantly increases insurance cost
+- Higher BMI leads to higher medical expenses
+- Age is a strong cost driver
 
-# Machine Learning Models Used
+---
 
-Linear Regression
+## 💡 Business Recommendations
+- Implement risk-based pricing strategies
+- Promote wellness programs
+- Use ML for personalized premium calculation
 
-Decision Tree Regressor
+---
 
-Random Forest Regressor (Final Model)
-
-# Model Performance
-Model	R² Score	RMSE
-Linear Regression	0.78	5799
-Decision Tree	0.69	6881
-Random Forest	0.865	4571
-
-Average Cross-Validation R² Score: 0.836
-
-# Final Model Selection
-
-Random Forest was selected because:
-
-Highest R² score
-
-Lowest RMSE
-
-Stable cross-validation performance
-
-Handles non-linear relationships effectively
-
-# Business Impact
-
-This model helps insurance companies:
-
-Estimate medical costs accurately
-
-Adjust premium pricing based on risk factors
-
-Identify high-risk customers (e.g., smokers)
-
-Improve pricing strategy and profitability
-
-# Key Learnings
-
-Data preprocessing & feature encoding
-
-Model comparison
-
-Cross-validation
-
-Overfitting detection
-
-Business interpretation of ML results
+## 🚀 Conclusion
+This project demonstrates how machine learning can be used to predict insurance costs and support data-driven decision making.
 
 # Author
 
