@@ -57,7 +57,7 @@ The objective of this project is to predict medical insurance costs based on fea
 ![Residual](images/Residual.png)
 
 ### 📈 Actual vs Predicted
-![Actual vs Predicted](images/Actual Vs Predicted.png)
+![Actual vs Predicted](images/Actual_vs_Predicted.png)
 ## 💼 Business Insights
 - Smoking significantly increases insurance cost
 - Higher BMI leads to higher medical expenses
